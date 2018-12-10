@@ -6,7 +6,7 @@ A script to change the timezone of the reminders in a .ics file. Useful when you
 ## Script usage
 Given a file `Reminders.ics` with reminders created in US Pacific time:
 
-`python convert_ics_timezone.py --file Reminders.ics --new_timezone America/New_York --old_timezone America/Los_Angeles`
+`python convert_ics_reminder_timezone.py --file Reminders.ics --new_timezone America/New_York --old_timezone America/Los_Angeles`
 
 ...generates a file `tz converted Reminders.ics` with event-level timestamps converted to US Eastern time.
 

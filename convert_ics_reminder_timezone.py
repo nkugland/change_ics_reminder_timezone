@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 """
-Example usage: python convert_ics_timezone.py --file reminders.ics --new_timezone America/New_York --old_timezone America/Los_Angeles
+Example usage: python convert_ics_reminder_timezone.py --file Reminders.ics --new_timezone America/New_York --old_timezone America/Los_Angeles
 
-Outputs file `tz converted reminders.ics`
+Outputs file `tz converted Reminders.ics`
 
 Note that the VTIMEZONE block at the top is unmodified so it's necessary to manually copy a new 
 VTIMEZONE after running this script. You can make a single event in the new timezone to 
